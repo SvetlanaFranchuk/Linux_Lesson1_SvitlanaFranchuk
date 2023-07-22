@@ -1,0 +1,17 @@
+   0 clear
+   1 mkdir /home/animals
+   2 mkdir /home/animals/dogs
+   3 mkdir /home/animals/cats
+   4 mkdir /home/animals/fish
+   5 touch /home/animals/dogs/pluto.txt
+   6 touch /home/animals/cats/garfield.txt
+   7 touch /home/animals/fish/nemo.txt
+   8 touch /tmp/adam.txt
+   9 mkdir -p /home/humans
+  10 cp /tmp/adam.txt /home/humans/adam.txt
+  11 touch /tmp/evA
+  12 mv /tmp/evA /opt/eve
+  13 mv /opt/eve /home/humans/eve
+  14 ls -la /home/humans/
+  15 history
+  16 history >> homework.txt; export_file homework.txt
